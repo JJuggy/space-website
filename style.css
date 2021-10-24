@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./images/background-home-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+}
+.logo{
+ cursor:pointer;
+}
+header{
+    position:relative;
+}
+nav{
+   
+    font-family: 'Barlow Condensed', sans-serif;
+}
+nav >img{
+    position:absolute;
+ right:0;
+}
+.list-item{
+
+    cursor: pointer;
+    position:relative;
+}
+.list-item:after {
+    position:absolute;
+    bottom:-30px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 0%;
+    transition: 0.3s ease-out;
+    border-bottom: 2px solid white;
+}
+.list-item:hover:after{
+    width:100%  
+  }
+  .list-item{
+    margin-right: 30px;
+  }
+  .list-item:last-child{
+   margin-right: 0px;
+  }
+ .so-you-want-to-travel{
+
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size:28px;
+    color:white;
+ }
+ .space{
+    font-family: 'Bellefair', serif;
+    font-size: 150px;
+    color:white;
+ }
+ 
+ .list.container.active{
+ left:0;
+    
+ }
+
+.explore-text{
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    line-height: 36.67px;
+}
+.details-about-space{
+    color: #D0D6F9;
+}
+
+.explore-button{
+    color:#0B0D17;
+}
+@media only screen and (max-width: 768px){
+    body{
+        background-image: url(./images/background-home-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        height: 100%;
+        background-size: cover;
+        
+    }
+    .list-item {
+        font-size: 20px;
+    }
+    .list-container{
+        background-color: gray;
+        position:fixed;
+        flex-direction: column;
+        left:-100%;
+        top: 80px;
+        width:100%;
+        transition:0.5s ease-in;
+    }
+    .list-container.isOpen{
+        left:0;
+    }
+    
+    
+
+}
