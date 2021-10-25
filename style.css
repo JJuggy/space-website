@@ -91,7 +91,8 @@ nav >img{
         font-size: 20px;
     }
     .list-container{
-        background-color: gray;
+     
+        backdrop-filter: blur(12px);
         position:fixed;
         flex-direction: column;
         left:-100%;
@@ -102,6 +103,11 @@ nav >img{
     .list-container.isOpen{
         left:0;
     }
+    .space{
+        font-family: 'Bellefair', serif;
+        font-size: 75px;
+        color:white;
+     }
     
     
 
