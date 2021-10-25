@@ -1,0 +1,133 @@
+body{
+
+    background-image: url(./destination-images/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    height:100vh
+}
+nav{
+   
+    font-family: 'Barlow Condensed', sans-serif;
+}
+header{
+    position:relative;
+}
+nav >img{
+    position:absolute;
+ right:5px;
+}
+.list-item {
+    font-size: 15px;
+}
+.pick-your-destination{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.planet-navigation{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.list-item{
+ cursor: pointer;
+ position:relative;
+}
+.moon{
+    margin-bottom: 88px;
+}
+.moon-text{
+    margin-top:58px;
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-size:100px;
+    width:333px;
+    Font-style: Regular;
+    margin-bottom:58px;
+}
+.list-item{
+    position:relative;
+}
+.distance-parameter{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #D0D6F9;
+    font-weight: 400;
+    font-size:14px;
+}
+.distance-taken{
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+.active{
+    
+    background-color:grey;
+    height: 3px;
+    opacity: .2;
+}
+
+ .list-item:after {
+    position:absolute;
+    bottom:-5px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 0%;
+    transition: 0.3s ease-out;
+    border-bottom: 2px solid white;
+}
+.list-item:hover:after{
+    width:100%;
+}
+.main-text{
+    font-family: 'Barlow', sans-serif;
+    color: #D0D6F9;
+    font-size:18px;
+    line-height:32px;
+}
+@media only screen and (max-width: 768px){
+    body{
+        background-image: url(./destination-images/background-destination-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position:center;
+        height: 100vh;
+        background-size: cover;
+        
+    }
+    .list-item {
+        font-size: 20px;
+    }
+    .list-container{
+     
+        backdrop-filter: blur(12px);
+        position:fixed;
+        flex-direction: column;
+        left:-100%;
+        top: 80px;
+        width:100%;
+        transition:0.5s ease-in;
+    }
+    .list-container.isOpen{
+        left:0;
+    }
+    
+    
+    .space{
+        font-family: 'Bellefair', serif;
+        font-size: 75px;
+        color:white;
+     }
+    
+    
+
+}
+
+ 
+/* .list-item-destination:after {
+    position:absolute;
+    bottom:-30px;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    transition: 0.3s ease-out;
+    border-bottom: 2px solid white;
+
+} */

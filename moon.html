@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="moonstyle.css" />
+    <title>Moon</title>
+  </head>
+  <body>
+    <header>
+      <nav class="flex justify-between m-5">
+        <div class="logo mt-3">
+          <img src="./images/logo.svg" alt="LOGO" />
+        </div>
+        <img
+          class="cursor-pointer w-10 h-5 mt-6 lg:invisible float-right"
+          id="hamburger"
+          src="./images/icon-hamburger.svg"
+          alt=""
+        />
+        <div
+          class="
+            navigation-links-container
+            h-20
+            text-center
+            w-3/5
+            pl-40
+            flex
+            items-center
+            lg:backdrop-blur-md
+            backdrop-filter
+            text-white
+          "
+        >
+          <ul class="list-container flex">
+            <li
+              class="
+                list-item
+                m-3
+                lg:hotext-sm
+                font-thin
+                leading-8
+                tracking-widest
+              "
+            >
+              <span class="font-bold">00</span> <a href="index.html" target="_blank">HOME</a> 
+            </li>
+            <li
+              class="
+                list-item list-item-destination
+                m-3
+                lg:hotext-sm
+                font-thin
+                leading-8
+                tracking-widest
+              "
+            >
+              <span class="font-bold">01</span> DESTINATION
+            </li>
+            <li
+              class="
+                list-item
+                m-3
+                lg:hotext-sm
+                font-thin
+                leading-8
+                tracking-widest
+              "
+            >
+              <span class="font-bold">02</span> CREW
+            </li>
+            <li
+              class="
+                list-item
+                m-3
+                lg:hotext-sm
+                font-thin
+                leading-8
+                tracking-widest
+              "
+            >
+              <span class="font-bold">03</span> TECHNOLOGY
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="section-two flex h-screen items-center justify-center">
+      <div
+        class="
+          section-two-container
+          text-center
+          lg:text-left
+          max-w-6xl
+          flex flex-col
+          sm:flex-col
+          md:flex-col
+          lg:flex-row
+          justify-between
+        "
+      >
+        <div class="mt-16 lg:mt-0 flex flex-col justify-center">
+          <div
+            class="
+              pick-your-destination
+              tracking-widest
+              text-white
+              font-thin
+              text-4xl
+              -ml-10
+              leading-8
+              lg:mb-28
+              tracking-widest
+            "
+          >
+            <span class="text-gray-400 opacity-25 font-bold text-4xl mr-5"
+              >01</span
+            >
+            PICK YOUR DESTINATION
+          </div>
+          <div class="moon-image flex justify-center items-center">
+            <img
+              src="./destination-images/image-moon.png"
+              class="mt-12 lg:mt-5 w-2/4 lg:w-full"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="w-full lg:w-2/4 flex flex-col">
+          <div class="planet-navigation lg:mt-14">
+            <ul class="list-cont flex justify-center lg:justify-start">
+              <li
+                class="
+                  m-3
+                  text-white
+                  active
+                  lg:hotext-sm
+                  font-medium
+                  cursor-pointer
+                  rounded-md
+                  leading-8
+                  tracking-widest
+                "
+                id="planet-links"
+              >
+                <a class="">MOON</a>
+              </li>
+              <li
+                class="
+                  m-3
+                  text-white
+                  lg:hotext-sm
+                  font-medium
+                  rounded-md
+                  cursor-pointer
+                  leading-8
+                  tracking-widest
+                "
+                id="planet-links"
+              >
+                <a>MARS</a>
+              </li>
+              <li
+                class="
+                  m-3
+                  text-white
+                  lg:hotext-sm
+                  font-medium
+                  rounded-md
+                  cursor-pointer
+                  leading-8
+                  tracking-widest
+                "
+                id="planet-links"
+              >
+                <a>EUROPA</a>
+              </li>
+              <li
+                class="
+                  m-3
+                  text-white
+                  lg:hotext-sm
+                  font-medium
+                  rounded-md
+                  cursor-pointer
+                  leading-8
+                  tracking-widest
+                "
+                id="planet-links"
+              >
+                <a>TITAN</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col justify-center ">
+            <div class="moon flex flex-col items-center lg:items-start">
+              <h1 class="moon-text text-8xl tracking-wide text-white">MOON</h1>
+              <p class="main-text text-white w-4/5">
+                See our planet as you’ve never seen it before. A perfect
+                relaxing trip away to help regain perspective and come back
+                refreshed. While you’re there, take in some history by visiting
+                the Luna 2 and Apollo 11 landing sites.
+              </p>
+            </div>
+            <div
+              class="
+                distance-statistics
+                justify-center
+                w-full
+                lg:w-4/5
+                flex
+              "
+            >
+              <div class="statistics-container flex  flex-col lg:flex-row lg:w-full items-center justify-between">
+                <div>
+                  <h3
+                    class="
+                      distance-parameter
+                      font-thin
+                      text-white
+                      tracking-widest
+                    "
+                  >
+                    AVERAGE DISTANCE
+                  </h3>
+                  <h4 class="text-white distance-taken">384,400 KM</h4>
+                </div>
+                <div class="mt-6 lg:mt-0">
+                  <h3 class="distance-parameter text-white tracking-widest">
+                    EST TRAVEL TIME
+                  </h3>
+                  <h4 class="text-white distance-taken">3 DAYS</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="moon.js"></script>
+  </body>
+</html>
