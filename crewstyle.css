@@ -64,8 +64,8 @@ nav >img{
  }
  .carousel1__button{
      cursor: pointer;
-     width: 20px;
-     height: 20px;
+     width: 15px;
+     height: 15px;
      margin: 0 10px;
      display:inline-block;
      border-radius: 50%;
@@ -101,7 +101,7 @@ nav >img{
 
 @media only screen and (max-width: 768px){
     body{
-        background-image: url(./images/background-home-mobile.jpg);
+        background-image: url(./crew-images/background-crew-mobile.jpg);
         background-repeat: no-repeat;
         background-position:center;
         height: 100%;
@@ -129,6 +129,17 @@ nav >img{
         font-size: 75px;
         color:white;
      }
+     .title{
+
+        color:gray;
+        font-family: 'Bellefair', serif;
+        font-size: 20px;
+     }
+     .story{
+        font-size: 12px;
+        color: #D0D6F9;
+        font-family: 'Barlow', sans-serif;
+    }
     
     
 
