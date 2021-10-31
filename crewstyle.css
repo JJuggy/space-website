@@ -64,8 +64,8 @@ nav >img{
  }
  .carousel1__button{
      cursor: pointer;
-     width: 15px;
-     height: 15px;
+     width: 10px;
+     height: 10px;
      margin: 0 10px;
      display:inline-block;
      border-radius: 50%;
@@ -95,7 +95,9 @@ nav >img{
     
  }
 
-
+.crew-image{
+    height:607px
+}
 
 
 
@@ -111,6 +113,16 @@ nav >img{
     .list-item {
         font-size: 20px;
     }
+
+    .carousel1__button{
+        cursor: pointer;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        display:inline-block;
+        border-radius: 50%;
+        background-color: gray;
+    }
     .list-container{
      
         backdrop-filter: blur(12px);
@@ -124,6 +136,17 @@ nav >img{
     .list-container.isOpen{
         left:0;
     }
+    .biodata{
+        position:relative;
+    }
+    .carousel1__nav {
+
+        position: absolute;
+        top: 59%;
+        left:35%;
+      
+    }
+    
     .space{
         font-family: 'Bellefair', serif;
         font-size: 75px;
@@ -131,6 +154,7 @@ nav >img{
      }
      .title{
 
+        margin-top: 30px;
         color:gray;
         font-family: 'Bellefair', serif;
         font-size: 20px;
@@ -143,4 +167,21 @@ nav >img{
     
     
 
+
+}
+@media only screen and (max-width: 640px){
+
+    .crew-image{
+
+        height:200px
+    }
+    .carousel1__button{
+        cursor: pointer;
+        width: 10px;
+        height: 10px;
+        margin: 0 5px;
+        display:inline-block;
+        border-radius: 50%;
+        background-color: gray;
+    }
 }
