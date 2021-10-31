@@ -136,16 +136,7 @@ nav >img{
     .list-container.isOpen{
         left:0;
     }
-    .biodata{
-        position:relative;
-    }
-    .carousel1__nav {
-
-        position: absolute;
-        top: 59%;
-        left:35%;
-      
-    }
+    
     
     .space{
         font-family: 'Bellefair', serif;
