@@ -77,10 +77,10 @@ nav >img{
 }
 @media only screen and (max-width: 768px){
     body{
-        background-image: url(./images/background-home-mobile.jpg);
-        background-repeat: no-repeat;
-        background-position:center;
-        height: 100%;
+        background: url(./destination-images/background-destination-mobile.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
         background-size: cover;
         
     }

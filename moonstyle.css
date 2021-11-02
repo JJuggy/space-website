@@ -4,7 +4,7 @@ body{
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-    height:100vh
+    height:100vh;
 }
 nav{
    
@@ -95,11 +95,17 @@ nav >img{
 
 @media only screen and (max-width: 768px){
     body{
-        background-image: url(./destination-images/background-destination-mobile.jpg);
+        background: url(./destination-images/background-destination-mobile.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        /* background-image: url(./destination-images/background-destination-mobile.jpg);
         background-repeat: no-repeat;
         background-position:center;
+        min-height: 100%;
         height: 100vh;
-        background-size: cover;
+        background-size: cover; */
         
     }
     .list-item {
