@@ -110,9 +110,6 @@ nav >img{
         background-size: cover;
         
     }
-    .list-item:hover:after{
-        width:0%  
-      }
     .list-item {
         font-size: 20px;
     }
@@ -127,16 +124,13 @@ nav >img{
         background-color: gray;
     }
     .list-container{
-        z-index: 2;
-        backdrop-filter: blur(25px);
+     
+        backdrop-filter: blur(12px);
         position:fixed;
-        display:flex;
         flex-direction: column;
-        padding-top: 60px;
-        height: 100%;
-        right: -100%;
+        left:-100%;
         top: 80px;
-        width:70%;
+        width:100%;
         transition:0.5s ease-in;
     }
     .list-container.isOpen{

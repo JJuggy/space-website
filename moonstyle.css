@@ -47,13 +47,7 @@ nav >img{
     font-weight: 400;
     margin-top:58px;
     margin-bottom:58px; 
-    /* 
     
-    
-    font-size:100px;
-    width:300px;
-    Font-style: Regular;
-    */
 
 
 }
@@ -98,6 +92,7 @@ nav >img{
     font-size:18px;
     line-height:32px;
 }
+
 @media only screen and (max-width: 768px){
     body{
         background-image: url(./destination-images/background-destination-mobile.jpg);
@@ -110,18 +105,25 @@ nav >img{
     .list-item {
         font-size: 20px;
     }
+    .list-item:hover:after{
+        width:0%  
+      }
+
     .list-container{
-     
-        backdrop-filter: blur(12px);
+        z-index: 2;
+        backdrop-filter: blur(25px);
         position:fixed;
+        display:flex;
         flex-direction: column;
-        left:-100%;
+        padding-top: 60px;
+        height: 100%;
+        right: -100%;
         top: 80px;
-        width:100%;
+        width:70%;
         transition:0.5s ease-in;
     }
     .list-container.isOpen{
-        left:0;
+        right:0;
     }
     
     

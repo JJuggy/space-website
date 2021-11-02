@@ -61,10 +61,7 @@ nav >img{
     color:white;
  }
  
- .list.container.active{
- left:0;
-    
- }
+
 
 .explore-text{
     font-family: 'Bellefair', serif;
@@ -87,21 +84,28 @@ nav >img{
         background-size: cover;
         
     }
+    .list-item:hover:after{
+        width:0%  
+      }
     .list-item {
         font-size: 20px;
     }
     .list-container{
      
-        backdrop-filter: blur(12px);
+        z-index: 2;
+        backdrop-filter: blur(25px);
         position:fixed;
+        display:flex;
         flex-direction: column;
-        left:-100%;
+        padding-top: 60px;
+        height: 100%;
+        right: -100%;
         top: 80px;
-        width:100%;
+        width:70%;
         transition:0.5s ease-in;
     }
     .list-container.isOpen{
-        left:0;
+        right:0;
     }
     .space{
         font-family: 'Bellefair', serif;
