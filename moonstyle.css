@@ -1,10 +1,15 @@
 body{
-
-    background-image: url(./destination-images/background-destination-desktop.jpg);
+    background: url(./destination-images/background-destination-desktop.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* background-image: url(./destination-images/background-destination-desktop.jpg);
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
     height:100vh;
+} */
 }
 nav{
    
