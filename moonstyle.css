@@ -42,6 +42,22 @@ nav >img{
     Font-style: Regular;
     margin-bottom:58px;
 }
+.moon-text-europa{
+    font-family: 'Bellefair', serif;
+    font-weight: 400;
+    margin-top:58px;
+    margin-bottom:58px; 
+    /* 
+    
+    
+    font-size:100px;
+    width:300px;
+    Font-style: Regular;
+    */
+
+
+}
+
 .list-item{
     position:relative;
 }
