@@ -98,7 +98,7 @@ nav >img{
     line-height:32px;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1024px){
     body{
         background: url(./destination-images/background-destination-mobile.jpg) no-repeat center center fixed; 
         -webkit-background-size: cover;
